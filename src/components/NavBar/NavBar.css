@@ -1,0 +1,110 @@
+nav{
+    width: 100vw;
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    background-color: #142941;
+    font-family: "Poppins", sans-serif;
+}
+
+nav ul{
+    display: flex;
+    gap: 24px;
+}
+
+nav ul li{
+    list-style: none;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+nav ul li:nth-child(1) , nav ul li:hover{
+    color: var(--green-color);
+}
+
+nav .signup{
+    width: 130px;
+    height: 40px;
+    border-radius: 3rem;
+    background: none;
+    border: 2px var(--text-color) solid;
+    color: var(--text-color);
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+nav .menu{
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: var(--text-color);
+    font-size: 25px;
+    display: none;
+}
+
+.navMenu{
+    width: 100vw;
+    height: 100vh;
+    padding: 60px 70px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    position: fixed;
+    z-index: 1;
+    background-color: #142941;
+}
+
+.navMenu button{
+    margin-top: 20px;
+    width: 130px;
+    height: 40px;
+    border-radius: 3rem;
+    background: none;
+    border: 2px var(--text-color) solid;
+    color: var(--text-color);
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.navMenu.active{
+    transform: translate(-150%);
+}
+
+.navMenu ul li:hover{
+    color: var(--green-color);
+}
+
+
+@media screen and (max-width: 992px) {
+    nav{
+        padding: 15px 50px;
+    }
+    nav .menu{
+        display: block;
+    }
+    nav ul , nav .signup{
+        display: none;
+    }
+    .navMenu{
+        padding-top: 90px;
+    }
+    .navMenu .active{
+        transform: translate(-150%);
+    }
+    .navMenu ul{
+        list-style: none;
+    }
+    .navMenu ul li{
+        color: var(--text-color);
+        padding: 20px 0;
+        width: 100%;
+    }
+}

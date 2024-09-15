@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --text-color: #D9ECFF;
+    --main-color: #3D4E64;
+    --green-color: #21B573;
+    --yallow-color: #FAB437;
+}

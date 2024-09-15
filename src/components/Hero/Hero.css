@@ -1,0 +1,127 @@
+.hero{
+    padding: 160px 46px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #142941;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero .image{
+    width: 100%;
+    text-align: center;
+}
+
+.hero .desc{
+    max-width: 694px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1{
+    max-width: 777px;
+    text-align: center;
+    font-family: "KoHo", sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 69px;
+    color: var(--text-color);
+}
+
+.hero h1 span{
+    font-family: "KoHo", sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 69px;
+    color: var(--yallow-color);
+    position: relative;
+}
+
+.hero h1 span img{
+    position: absolute;
+    left: 0;
+    bottom: -13px;
+}
+
+.hero p{
+    margin: 42px 0;
+    max-width: 523px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.hero .explore{
+    position: relative;
+}
+
+.hero .explore input{
+    width: 500px;
+    height: 54px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--main-color);
+}
+
+.hero .explore input:focus{
+    color: var(--text-color);
+    font-size: 14px;
+}
+
+.hero .explore input::placeholder{
+    font-size: 14px;
+    line-height: 24px;
+    font-style: italic;
+    color: var(--text-color);
+}
+
+.hero .explore button{
+    width: 130px;
+    height: 44px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #364C65;
+    border: none;
+    border-radius: 47px;
+    background-color: var(--yallow-color);
+    position: absolute;
+    left: 73%;
+    top: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+    .hero{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero .image{
+        min-width: 280px;
+    }
+    .hero h1 , .hero h1 span{
+        font-size: 22px;
+    }
+    .hero h1 span img{
+        width: 70px;
+        bottom: -9px;
+    }
+    .hero p{
+        font-size: 14px;
+    }
+    .hero .explore input{
+        width: 280px;
+    }
+    .hero .explore input::placeholder{
+        font-size: 10px;
+    }
+    .hero .explore button{
+        width: 90px;
+        left: 66%;
+    }
+}

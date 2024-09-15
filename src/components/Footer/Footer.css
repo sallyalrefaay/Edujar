@@ -1,0 +1,87 @@
+.footer{
+    padding: 0 70px 100px;
+    background-color: #142941;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer .info{
+    max-width: 361px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .info img{
+    width: 87px;
+    height: 35px;
+}
+
+.footer .info p{
+    color: var(--text-color);
+}
+
+.footer .info .copyRight{
+    margin-top: 30px;
+}
+
+.footer .info p span{
+    color: var(--yallow-color);
+}
+
+.footer .info h3{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #FFFFFF;
+    font-family: "KoHo", sans-serif;
+}
+
+.footer .info ul{
+    list-style: none;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.footer .info ul li:hover{
+    color: var(--green-color);
+}
+
+.footer .info input{
+    width: 283px;
+    height: 41px;
+    background: none;
+    border: none;
+    border-bottom: 1px #E1EFFF50 solid;
+}
+
+.footer .info input::placeholder{
+    color: var(--text-color);
+    font-family: "Poppins", sans-serif;
+}
+
+.footer .info button{
+    width: 190px;
+    height: 55px;
+    border: none;
+    border-radius: 30px;
+    background-color: var(--green-color);
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 992px){
+    .footer{
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    .footer .info h3{
+        font-size: 18px;
+    }
+}

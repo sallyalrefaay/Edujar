@@ -1,0 +1,199 @@
+.popularCourses{
+    padding: 20px 70px;
+    background-color: #142941;
+    font-family: "Poppins", sans-serif;
+}
+
+.popularCourses .navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.popularCourses .navBar .title-2 h1{
+    margin-bottom: 10px;
+    font-family: "KoHo", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+
+.popularCourses .navBar .title-2 p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: var(--text-color);
+}
+
+.popularCourses .navBar .btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.popularCourses .navBar .btn div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.popularCourses .navBar .btn div img{
+    width: 15px;
+    height: 15px;
+}
+
+.popularCourses .navBar .btn div:nth-child(2){
+    rotate: 180deg;
+}
+
+.container-3{
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 28px;
+}
+
+.container-3 .card-2{
+    padding: 32px 20px;
+    width: 30%;
+    border-radius: 30px;
+    border: 2px var(--main-color)  solid;
+    background-color: #364C6550;
+}
+
+.container-3 .card-2 .title-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-3 .card-2 .title-2 .lesson{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-3 .card-2 .title-2 .lesson .icon-2{
+    width: 26px;
+    height: 26px;
+    background-color: var(--green-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-3 .card-2 .title-2 .lesson .blue{
+    background-color: #00C1FF;
+}
+.container-3 .card-2 .title-2 .lesson .red{
+    background-color: #F15568;
+}
+.container-3 .card-2 .title-2 .lesson .purple{
+    background-color: #7F56D9;
+}
+.container-3 .card-2 .title-2 .lesson .orange{
+    background-color: #FF6905;
+}
+.container-3 .card-2 .title-2 .lesson .yallow{
+    background-color: var(--yallow-color);
+}
+
+.container-3 .card-2 .title-2 .lesson p{
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.container-3 .card-2 .title-2 button{
+    padding: 6px 20px;
+    background: none;
+    border: 2px #DADAF750 solid;
+    border-radius: 18px;
+    color: #FFFFFF;
+}
+
+.container-3 .card-2 h2{
+    margin: 24px 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: var(--text-color);
+}
+
+.container-3 .card-2 p{
+    font-size: 14px;
+    color: #7B92AC;
+}
+
+.container-3 .card-2 .line{
+    margin: 24px 0;
+    border: 1px #DADAF730 solid;
+}
+
+.container-3 .card-2 .join{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-3 .card-2 .join button{
+    width: 130px;
+    height: 38px;
+    border-radius: 47px;
+    border: none;
+    background-color: var(--green-color);
+    color: #FFFFFF;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.container-3 .card-2 .join .icon-3{
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exploreCourses{
+    margin: 56px 0;
+    text-align: center;
+}
+
+.exploreCourses button{
+    width: 190px;
+    height: 55px;
+    border-radius: 38px;
+    background: none;
+    border: 2px #FFFFFF solid;
+    color: #FFFFFF;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 992px){
+    .popularCourses{
+        padding: 20px;
+    }
+    .popularCourses .navBar .title-2 h1{
+        font-size: 22px;
+    }
+    .popularCourses .navBar .btn{
+        display: none;
+    }
+    .container-3 .card-2{
+        width: 280px;
+    }
+    .container-3 .card-2 h2{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,31 @@
+.brands{
+    padding: 100px 70px;
+    background-color: #142941;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.brands div{
+    cursor: pointer;
+}
+
+.brands .brand{
+    max-width: 146px;
+    min-width: 100px;
+}
+
+.brands div:nth-child(7){
+    rotate: 180deg;
+}
+
+@media screen and (max-width: 992px){
+    .brands{
+        padding: 20px;
+        overflow-x: scroll;
+    }
+    .brands .arrow-3{
+        display: none;
+    }
+}
