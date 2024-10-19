@@ -3,7 +3,7 @@ export default function Footer() {
     return (
     <div className='footer'>
         <div className="info">
-            <img src="/Edujar/assets/logo.svg" alt="edujar logo" />
+            <img src="/public/assets/logo.svg" alt="edujar logo" />
             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat...</p>
             <p className='copyRight'>© 2024 <span>edujar</span> - All Rights Reserved</p>
         </div>

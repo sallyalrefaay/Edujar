@@ -7,7 +7,7 @@ export default function NavBar() {
     return (
     <>
         <nav>
-            <img src="/Edujar/assets/logo.svg" alt="Edujar logo " />
+            <img src="/public/assets/logo.svg" alt="Edujar logo " />
             <ul>
                 <li>Home</li>
                 <li>Courses</li>
