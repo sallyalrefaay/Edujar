@@ -12,14 +12,14 @@ export default function Rating() {
         </div>
         <div className="part partCenter">
             <div className='title'>
-            <img src="/public/assets/star.svg" alt="star icon" />
+            <img src="/Edujar/assets/star.svg" alt="star icon" />
             <h2>Trustpilot</h2>
             </div>
             <div className="rating">
                 <p>View our 1,602 reviews</p>
                 <div>
                     <h3> 4.9 </h3>
-                    <img src="/public/assets/Star 2.svg" alt="star icon" />
+                    <img src="/Edujar/assets/Star 2.svg" alt="star icon" />
                 </div>
             </div>
         </div>
