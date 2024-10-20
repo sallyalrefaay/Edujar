@@ -37,14 +37,23 @@
     cursor: pointer;
 }
 
-.clients .desc-2 .ourClients div:hover{
-    width: 116px;
-    height: 116px;
+.clients .desc-2 .ourClients div{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .clients .desc-2 .ourClients div .photo{
-    width: 100%;
+    width: 70%;
 }
+
+.clients .desc-2 .ourClients div .photo:hover{
+    width: 120px;
+    height: 120px;
+}
+
 
 .clients .desc-2 .ourClients div:nth-child(7){
     rotate: 180deg;
