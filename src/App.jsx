@@ -7,18 +7,12 @@ import Hero from "./components/Hero/Hero"
 import NavBar from "./components/NavBar/NavBar"
 import Questions from "./components/Questions/Questions"
 import Rating from "./components/Rating/Rating"
-import { RouterProvider , createBrowserRouter } from "react-router-dom";
-
-const router = createBrowserRouter( 
-  { basename: import.meta.env.BASE_URL }
-);
-
 
 function App() {
-  
+
+
   return (
     <>
-    <RouterProvider router={router} />
       <NavBar/>
       <Hero/>
       <Rating/>
